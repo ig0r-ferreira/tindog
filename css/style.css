@@ -56,3 +56,34 @@ h1 {
     margin-right: 4%;
 }
 /* ------------------------------------------------ */
+
+/* 
+* Features section styles
+* ------------------------------------------------ */
+#features {
+    padding: 10% 14%;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.feature-box h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-box p {
+    color: #8f8f8f;
+}
+
+.feature-icon {
+    color: #ff6a59;
+    /* color: #fc8879; */
+    font-size: 3rem;
+}
+
+.feature-icon:hover {
+    color: #ff3352;
+}
+/* ------------------------------------------------ */
