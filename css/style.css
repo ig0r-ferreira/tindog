@@ -12,8 +12,9 @@ header,
     background-color: #ff4c68;
 }
 
-/* Navigation bar starts*/
-
+/* 
+* Navbar styles
+* ------------------------------------------------ */
 .navbar-brand {
     font-family: "Ubuntu", sans-serif;
     font-size: 2.5rem;
@@ -28,11 +29,23 @@ header,
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
 }
-
-/* Navigation bar ends*/
+/* ------------------------------------------------ */
 
 h1 {
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
 }
+
+/* 
+* Download buttons styles
+* ------------------------------------------------ */
+.download-btn {
+    margin-top: 5%;
+    padding: 1rem;
+}
+
+.download-btn:first-of-type {
+    margin-right: 4%;
+}
+/* ------------------------------------------------ */
