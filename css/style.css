@@ -13,7 +13,7 @@ header,
 }
 
 /* 
-* Navbar styles
+* Navbar
 * ------------------------------------------------ */
 .navbar-brand {
     font-family: "Ubuntu", sans-serif;
@@ -45,7 +45,7 @@ h1 {
 }
 
 /* 
-* Download buttons styles
+* Download buttons
 * ------------------------------------------------ */
 .download-btn {
     margin-top: 5%;
@@ -58,7 +58,7 @@ h1 {
 /* ------------------------------------------------ */
 
 /* 
-* Features section styles
+* Features section
 * ------------------------------------------------ */
 #features {
     padding: 10% 14%;
@@ -85,5 +85,28 @@ h1 {
 
 .feature-icon:hover {
     color: #ff3352;
+}
+/* ------------------------------------------------ */
+
+/* 
+* Testimonials section
+* ------------------------------------------------- */
+#testimonials {
+    color: #ffffff;
+    background-color: #ff6a59;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2.7rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.testimonials-img {
+    width: 8rem;
+    border-radius: 100%;
+    margin: 20px;
 }
 /* ------------------------------------------------ */
