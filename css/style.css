@@ -49,10 +49,16 @@ h1 {
     font-weight: 900;
 }
 
-.intro-img {
-    display: block;
-    width: 50%;
-    transform: rotate(25deg);
+.app-img-container {
+    position: relative;
+}
+
+.app-img {
+    position: absolute;
+    width: 62%;
+    transform: rotate(20deg);
+    left: 0;
+    right: 0;
     margin: 0 auto;
 }
 /* ------------------------------------------------ */
@@ -76,6 +82,8 @@ h1 {
 #features {
     text-align: center;
     background-color: #ffffff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
