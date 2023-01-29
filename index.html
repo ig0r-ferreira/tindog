@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&family=Ubuntu:wght@300;400;700&display=swap"
             rel="stylesheet"
         />
         <!-- Icons -->
@@ -198,28 +198,80 @@
             <section id="pricing">
                 <h2>A Plan for Every Dog's Needs</h2>
                 <p>Simple and affordable price plans for your and your dog.</p>
-
-                <h3>Chihuahua</h3>
-                <h2>Free</h2>
-                <p>5 Matches Per Day</p>
-                <p>10 Messages Per Day</p>
-                <p>Unlimited App Usage</p>
-                <button type="button">Sign Up</button>
-
-                <h3>Labrador</h3>
-                <h2>$49 / mo</h2>
-                <p>Unlimited Matches</p>
-                <p>Unlimited Messages</p>
-                <p>Unlimited App Usage</p>
-                <button type="button">Sign Up</button>
-
-                <h3>Mastiff</h3>
-                <h2>$99 / mo</h2>
-                <p>Pirority Listing</p>
-                <p>Unlimited Matches</p>
-                <p>Unlimited Messages</p>
-                <p>Unlimited App Usage</p>
-                <button type="button">Sign Up</button>
+                <div class="row gap-0 row-gap-3 price-plans">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100">
+                            <div class="card-header">
+                                <h3 class="plan-title">Chihuahua</h3>
+                            </div>
+                            <div class="card-body">
+                                <h2 class="plan-price">Free</h2>
+                                <ul class="list-unstyled">
+                                    <li>5 Matches Per Day</li>
+                                    <li>10 Messages Per Day</li>
+                                    <li>Unlimited App Usage</li>
+                                </ul>
+                                <button
+                                    type="button"
+                                    class="btn btn-lg btn-dark w-100"
+                                >
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card h-100">
+                            <div class="card-header">
+                                <h3 class="plan-title">Labrador</h3>
+                            </div>
+                            <div class="card-body">
+                                <h2 class="plan-price">
+                                    $49<span class="text-muted fw-light"
+                                        >/mo</span
+                                    >
+                                </h2>
+                                <ul class="list-unstyled">
+                                    <li>Unlimited Matches</li>
+                                    <li>Unlimited Messages</li>
+                                    <li>Unlimited App Usage</li>
+                                </ul>
+                                <button
+                                    type="button"
+                                    class="btn btn-lg btn-dark w-100"
+                                >
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card h-100">
+                            <div class="card-header">
+                                <h3 class="plan-title">Mastiff</h3>
+                            </div>
+                            <div class="card-body">
+                                <h2 class="plan-price">
+                                    $99<span class="text-muted fw-light"
+                                        >/mo</span
+                                    >
+                                </h2>
+                                <ul class="list-unstyled">
+                                    <li>Pirority Listing</li>
+                                    <li>Unlimited Matches</li>
+                                    <li>Unlimited Messages</li>
+                                    <li>Unlimited App Usage</li>
+                                </ul>
+                                <button
+                                    type="button"
+                                    class="btn btn-lg btn-dark w-100"
+                                >
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!-- Call to Action -->
