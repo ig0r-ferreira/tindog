@@ -34,7 +34,6 @@ header .container-fluid {
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
 }
-/* ------------------------------------------------ */
 
 /* 
 * Intro section
@@ -47,6 +46,7 @@ h1 {
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
+    margin-bottom: 6%;
 }
 
 .app-img-container {
@@ -61,20 +61,13 @@ h1 {
     right: 0;
     margin: 0 auto;
 }
-/* ------------------------------------------------ */
 
 /* 
 * Download buttons
 * ------------------------------------------------ */
 .download-btn {
-    margin: 5% 0;
     padding: 1rem;
 }
-
-.download-btn:first-of-type {
-    margin-right: 4%;
-}
-/* ------------------------------------------------ */
 
 /* 
 * Features section
@@ -107,7 +100,6 @@ h1 {
 .feature-icon:hover {
     color: #ff3352;
 }
-/* ------------------------------------------------ */
 
 /* 
 * Testimonials section
@@ -133,7 +125,6 @@ h1 {
     border-radius: 100%;
     margin: 20px;
 }
-/* ------------------------------------------------ */
 
 /* 
 * Press section
@@ -151,7 +142,6 @@ h1 {
     width: 15rem;
     margin: 20px;
 }
-/* ------------------------------------------------ */
 
 /* 
 * Pricing section
@@ -176,4 +166,18 @@ h1 {
 
 .price-plans {
     margin-top: 4%;
+}
+
+/* 
+* Media queries
+* ------------------------------------------------- */
+@media screen and (max-width: 1028px) {
+    #intro {
+        text-align: center;
+    }
+    .app-img {
+        margin: 10% 0;
+        position: static;
+        transform: rotate(0);
+    }
 }
