@@ -2,19 +2,24 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-.container-fluid {
-    padding: 2% 15%;
-}
-
 header,
 #intro {
     color: #ffffff;
     background-color: #ff4c68;
 }
 
+.container-fluid {
+    padding: 7% 15%;
+}
+
 /* 
 * Navbar
 * ------------------------------------------------ */
+header .container-fluid {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 .navbar-brand {
     font-family: "Ubuntu", sans-serif;
     font-size: 2.5rem;
@@ -31,6 +36,13 @@ header,
 }
 /* ------------------------------------------------ */
 
+/* 
+* Intro section
+* ------------------------------------------------- */
+#intro .container-fluid {
+    padding-top: 3%;
+}
+
 h1 {
     font-size: 3.5rem;
     line-height: 1.5;
@@ -43,12 +55,13 @@ h1 {
     transform: rotate(25deg);
     margin: 0 auto;
 }
+/* ------------------------------------------------ */
 
 /* 
 * Download buttons
 * ------------------------------------------------ */
 .download-btn {
-    margin-top: 5%;
+    margin: 5% 0;
     padding: 1rem;
 }
 
@@ -61,7 +74,8 @@ h1 {
 * Features section
 * ------------------------------------------------ */
 #features {
-    padding: 10% 14%;
+    text-align: center;
+    background-color: #ffffff;
 }
 
 .feature-box {
@@ -79,7 +93,6 @@ h1 {
 
 .feature-icon {
     color: #ff6a59;
-    /* color: #fc8879; */
     font-size: 3rem;
 }
 
@@ -98,7 +111,7 @@ h1 {
 }
 
 .carousel-item {
-    padding: 7% 15%;
+    padding: 5% 15%;
 }
 
 .testimonial-text {
@@ -120,7 +133,10 @@ h1 {
 #press {
     background-color: #ff6a59;
     text-align: center;
-    padding: 2% 0 7%;
+}
+
+#press .container-fluid {
+    padding: 2% 0 5%;
 }
 
 .press-logo {
@@ -134,7 +150,6 @@ h1 {
 * ------------------------------------------------- */
 #pricing {
     text-align: center;
-    padding: 7% 15%;
 }
 
 #pricing h2 {
