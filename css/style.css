@@ -1,15 +1,42 @@
 body {
     font-family: "Montserrat", sans-serif;
-}
-
-header,
-#intro {
-    color: #ffffff;
-    background-color: #ff4c68;
+    text-align: center;
 }
 
 .container-fluid {
     padding: 7% 15%;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: #ffffff;
+    color: black;
+}
+
+/* 
+* Headings
+* ------------------------------------------------ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 2.7rem;
+    line-height: 1.5;
 }
 
 /* 
@@ -31,8 +58,15 @@ header .container-fluid {
 }
 
 .nav-link {
-    font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* 
+* Download buttons
+* ------------------------------------------------ */
+.download-btn {
+    padding: 1rem;
 }
 
 /* 
@@ -42,11 +76,9 @@ header .container-fluid {
     padding-top: 3%;
 }
 
-h1 {
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-    margin-bottom: 6%;
+#intro-heading {
+    text-align: left;
+    margin-bottom: 7%;
 }
 
 .app-img-container {
@@ -63,18 +95,9 @@ h1 {
 }
 
 /* 
-* Download buttons
-* ------------------------------------------------ */
-.download-btn {
-    padding: 1rem;
-}
-
-/* 
 * Features section
 * ------------------------------------------------ */
 #features {
-    text-align: center;
-    background-color: #ffffff;
     position: relative;
     z-index: 1;
 }
@@ -83,12 +106,11 @@ h1 {
     padding: 5%;
 }
 
-.feature-box h3 {
+.feature-title {
     font-size: 1.5rem;
-    font-weight: bold;
 }
 
-.feature-box p {
+.feature-text {
     color: #8f8f8f;
 }
 
@@ -105,18 +127,11 @@ h1 {
 * Testimonials section
 * ------------------------------------------------- */
 #testimonials {
-    color: #ffffff;
     background-color: #ff6a59;
-    text-align: center;
-}
-
-.carousel-item {
-    padding: 5% 15%;
 }
 
 .testimonial-text {
     font-size: 2.7rem;
-    font-weight: bold;
     line-height: 1.5;
 }
 
@@ -131,7 +146,6 @@ h1 {
 * ------------------------------------------------- */
 #press {
     background-color: #ff6a59;
-    text-align: center;
 }
 
 #press .container-fluid {
@@ -146,68 +160,56 @@ h1 {
 /* 
 * Pricing section
 * ------------------------------------------------- */
-#pricing {
-    text-align: center;
+.pricing-plans {
+    margin-top: 5%;
 }
 
-#pricing h2 {
-    font-size: 2.7rem;
-    font-weight: bold;
-    line-height: 1.5;
+.card-body {
+    padding: 10%;
 }
 
-.plan-title {
+.card-body ul {
+    margin: 5% 0 10%;
+}
+
+.plan-name {
+    font-weight: 400;
     margin: 2%;
 }
 
-#pricing .plan-price {
+.plan-price {
+    font-size: 2.7rem;
     font-weight: 600;
-}
-
-.price-plans {
-    margin-top: 4%;
 }
 
 /* 
 * CTA section
 * ------------------------------------------------- */
-#cta {
-    color: #ffffff;
-    background-color: #ff4c68;
-    text-align: center;
-}
-
-#cta > .container-fluid {
-    padding: 10% 20%;
-}
-
-.cta-title {
-    font-size: 2.7rem;
-    line-height: 1.5;
-    font-weight: bold;
+#cta-heading {
     margin-bottom: 6%;
+}
+
+#cta .row {
+    justify-content: center;
 }
 
 /* 
 * Footer
 * ------------------------------------------------- */
-footer {
-    text-align: center;
-    padding: 3% 15%;
+footer .container-fluid {
+    padding: 3% 15% 2%;
 }
 
-footer > ul {
+footer ul {
     justify-content: center;
 }
 
 .social-icon {
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-size: 1.25rem;
     margin: 0 2%;
 }
 
 .copyright {
-    color: #8f8f8f;
     margin-top: 2%;
 }
 
