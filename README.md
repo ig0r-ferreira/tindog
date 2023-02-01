@@ -1,4 +1,4 @@
-<a href="https://ig0r-ferreira.github.io/tindog/" target="_blank"><h1 style="text-align: center;">TinDog</h1></a>
+<h1 align="center"><a href="https://ig0r-ferreira.github.io/tindog/" target="_blank">TinDog</a></h1>
 
 [Tindog](https://ig0r-ferreira.github.io/tindog/) is a one-page site, based on Tinder, but aimed at the canine audience. It's just a front-end and was developed while learning web development at 100 Days of Code (Python Bootcamp) with instructor Angela Yu.
 
