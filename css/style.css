@@ -7,6 +7,14 @@ body {
     padding: 7% 15%;
 }
 
+.btn {
+    padding: 1rem;
+}
+
+.row {
+    margin: 0 auto;
+}
+
 .colored-section {
     background-color: #ff4c68;
     color: white;
@@ -30,12 +38,12 @@ h6 {
 }
 
 .big-heading {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 1.5;
 }
 
 .section-heading {
-    font-size: 2.7rem;
+    font-size: 2rem;
     line-height: 1.5;
 }
 
@@ -49,36 +57,29 @@ header .container-fluid {
 
 .navbar-brand {
     font-family: "Ubuntu", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
+    padding-left: 0.5rem;
 }
 
 .nav-item {
-    padding: 0 18px;
+    padding: 1.25rem;
 }
 
 .nav-link {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
-}
-
-/* 
-* Download buttons
-* ------------------------------------------------ */
-.download-btn {
-    padding: 1rem;
 }
 
 /* 
 * Intro section
 * ------------------------------------------------- */
 #intro .container-fluid {
-    padding-top: 3%;
+    padding-top: 4%;
 }
 
 #intro-heading {
-    text-align: left;
-    margin-bottom: 7%;
+    margin-bottom: 8%;
 }
 
 .app-img-container {
@@ -86,12 +87,9 @@ header .container-fluid {
 }
 
 .app-img {
-    position: absolute;
     width: 62%;
-    transform: rotate(20deg);
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    margin: 10% 0;
+    transform: rotate(0);
 }
 
 /* 
@@ -104,10 +102,6 @@ header .container-fluid {
 
 .feature-box {
     padding: 5%;
-}
-
-.feature-title {
-    font-size: 1.5rem;
 }
 
 .feature-text {
@@ -131,14 +125,15 @@ header .container-fluid {
 }
 
 .testimonial-text {
-    font-size: 2.7rem;
+    font-size: 2rem;
     line-height: 1.5;
+    font-weight: 600;
 }
 
 .testimonial-img {
     width: 8rem;
     border-radius: 100%;
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 /* 
@@ -149,19 +144,20 @@ header .container-fluid {
 }
 
 #press .container-fluid {
-    padding: 2% 0 5%;
+    padding: 0 0 7%;
 }
 
 .press-logo {
-    width: 15rem;
-    margin: 20px;
+    width: 14rem;
+    margin: 1.25rem;
 }
 
 /* 
 * Pricing section
 * ------------------------------------------------- */
 .pricing-plans {
-    margin-top: 5%;
+    margin-top: 3rem;
+    gap: 1.5rem 0;
 }
 
 .card-body {
@@ -178,7 +174,7 @@ header .container-fluid {
 }
 
 .plan-price {
-    font-size: 2.7rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -196,33 +192,44 @@ header .container-fluid {
 /* 
 * Footer
 * ------------------------------------------------- */
-footer .container-fluid {
-    padding: 3% 15% 2%;
-}
-
 footer ul {
     justify-content: center;
 }
 
 .social-icon {
     font-size: 1.25rem;
-    margin: 0 2%;
+    margin: 1.25rem;
 }
-
-.copyright {
-    margin-top: 2%;
-}
-
 /* 
 * Media queries
 * ------------------------------------------------- */
-@media screen and (max-width: 1028px) {
-    #intro {
-        text-align: center;
+@media (min-width: 992px) {
+    #intro-heading {
+        text-align: left;
     }
+    .big-heading {
+        font-size: 3rem;
+    }
+    .section-heading,
+    .testimonial-text,
+    .plan-price {
+        font-size: 2.25rem;
+    }
+    .navbar-brand {
+        font-size: 2.5rem;
+    }
+
+    footer .container-fluid {
+        padding: 3% 15% 2%;
+    }
+}
+
+@media (min-width: 1200px) {
     .app-img {
-        margin: 10% 0;
-        position: static;
-        transform: rotate(0);
+        position: absolute;
+        transform: rotate(20deg);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
     }
 }
